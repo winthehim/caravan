@@ -43,11 +43,4 @@ function shuffle(deck) {
     }
 }
 
-let deck1 = getDeck();
-    shuffle(deck1);
-
-let deck2 = getDeck();
-shuffle(deck2);
-
-console.log(deck1);
-console.log(deck2);
+export { getDeck, shuffle };
